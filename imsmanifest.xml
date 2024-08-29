@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<manifest identifier="Z8R4m6Y7pMV3Bbg6QRND3EqVFOUUT1C_eMMkYT20" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Crisis Management</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Crisis Management</title>
+        <adlcp:datafromlms>eyJjcHYiOiJlTU1rWVQyMCIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/OpenSans-Italic.woff" />
+<file href="scormcontent/lib/fonts/OpenSans-Bold.woff" />
+<file href="scormcontent/lib/fonts/OpenSans-Regular.woff" />
+<file href="scormcontent/lib/fonts/OpenSans-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/assets/7vVtQspb4BONMpIx_small.png" />
+<file href="scormcontent/assets/v3dB2tDmFhMVLj0C_K3vqXbe3E0u5jDLz.jpg" />
+<file href="scormcontent/assets/sAgKhm6m_cSlRRGb_transcoded-tpcL1inyD7qAu1KB-Crisis%20Objectives.mp3" />
+<file href="scormcontent/assets/AjLeoJ7gepYWpp8N_transcoded-pcwbqu-8-dUTZgM1-Crisis%20Management-00001.png" />
+<file href="scormcontent/assets/RavQTFpy7goiwdWI_transcoded-pcwbqu-8-dUTZgM1-Crisis%20Management.mp4" />
+<file href="scormcontent/assets/5zFlPMeYhwKI6myO_eUk_XHd_sTRVAqra.png" />
+<file href="scormcontent/assets/H_y9d3Cki_bGdrlK_transcoded-7ihTK52CqLqKSUbE-Crisis_%20Module%202_%20Slide%201.mp3" />
+<file href="scormcontent/assets/7CWrRGx8-PMIwrLV_transcoded-g7Yqmu2uFoxdyrbA-Crisis_%20Module%202_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Vyr_WlDa2evDurgu_bR19AB_b6ZtF4bW_.jpg" />
+<file href="scormcontent/assets/xLy72J-J5D5ai9BU_fkJtq_hwHd7BrYFb.png" />
+<file href="scormcontent/assets/IumM_bOWQchLGZ8O_transcoded-gJBp7DYQXmWfxPHD-Crisis_%20Module%202_%20Slide%203.mp3" />
+<file href="scormcontent/assets/BzAUzf8ffe7Xjhn5_transcoded-9p3kNlkheKOpKhpQ-Crisis_%20Module%202_%20Slide%204.mp3" />
+<file href="scormcontent/assets/VGVgbKwClNWNNu3r_transcoded-xqDejr-cGRbaJOB0-Module%2002-00001.png" />
+<file href="scormcontent/assets/zBPGYErcZCe94MjT_transcoded-xqDejr-cGRbaJOB0-Module%2002.mp4" />
+<file href="scormcontent/assets/LZtamabv1yVxun8I_v5CK_-JXABw6Cy5P.png" />
+<file href="scormcontent/assets/RyPJeLIgXOidtwcD_transcoded-ui8Diy2Da-OT0I6h-Crisis_%20Module%202_%20Slide%205.mp3" />
+<file href="scormcontent/assets/nj0GUEYztatnfNuw_g_PLJBJ9gWMe0eI2.jpg" />
+<file href="scormcontent/assets/Q_tk26uiMTPCZY5v_transcoded-3YY4dnCsPBIOg5zv-Crisis_%20Module%203_%20Slide%201.mp3" />
+<file href="scormcontent/assets/MdicCHisbCj2C1Z1_transcoded-OkNuPYJBsxoccoph-Crisis_%20Module%203_%20Slide%202.mp3" />
+<file href="scormcontent/assets/tQTDsYHb9JqVTcv6_iVWeImnFaH0ezoO3.jpg" />
+<file href="scormcontent/assets/sWgZzfrwd8JHh_Nr_transcoded-cXgr8rtBf_QU6fXG-Crisis_%20Module%203_%20Slide%203.mp3" />
+<file href="scormcontent/assets/PGEIQa_6aUy2duk__T2LKe0zOhoD1bFzs.png" />
+<file href="scormcontent/assets/tPrMoewmxsVg6KDo_transcoded-7XUSgo4fiFpnKu7M-Crisis_%20Module%203_%20Slide%204.mp3" />
+<file href="scormcontent/assets/msC3Gz3fP7j_cFht_33lBU4us8HeaE3tt.png" />
+<file href="scormcontent/assets/oDHo3LyzUJVeWCVm_transcoded-5j2wKm9hUXd8ZA6E-Crisis_%20Module%203_%20Slide%205.mp3" />
+<file href="scormcontent/assets/2Xmrsq_-PVLWWeZr_transcoded-B_aiKeCxLmWG1INp-Module%2003-00001.png" />
+<file href="scormcontent/assets/CCjyZANLE5FuplaI_transcoded-B_aiKeCxLmWG1INp-Module%2003.mp4" />
+<file href="scormcontent/assets/zn5HClzbvFdT_M8b_QLv5tT_xtPs4scU-.jpg" />
+<file href="scormcontent/assets/vrPaJUemD1SbKzT8_transcoded-jIzgOmQJBHAlYqaS-Crisis_%20Module%204_%20Slide%201.mp3" />
+<file href="scormcontent/assets/hZinqg5uAl7WMAOJ_transcoded-e1WDnjuEub_8F_s8-Crisis_%20Module%204_%20Slide%202.mp3" />
+<file href="scormcontent/assets/4Y-DRPRpJCXvdr1t_EvDehknJ3ZKf0DCR.jpg" />
+<file href="scormcontent/assets/tewZHq50oIYH0O9a_transcoded-twunvZkEbDQ6jqRP-Crisis_%20Module%204_%20Slide%203.mp3" />
+<file href="scormcontent/assets/w8p3sT694YXrbCfy_un8hxQERijrKBCo_.jpg" />
+<file href="scormcontent/assets/UmEjNGnVvhu4Am_e_nuRTov7DTJFWs7J1.jpg" />
+<file href="scormcontent/assets/wr-MDIlfArSNTG-m_transcoded-AQ_0fY-6TRezJ2xl-Crisis_%20Module%204_%20Slide%204.mp3" />
+<file href="scormcontent/assets/LJIjiGsmynJHjzn5_transcoded-XnjcY9RCDIq0kcrU-Crisis_%20Module%204_%20Slide%205.mp3" />
+<file href="scormcontent/assets/MvZ0nzRbaIMNd5Il_transcoded-ToJ2fB4sg8KOIR9d-Module%2004-00001.png" />
+<file href="scormcontent/assets/c_5Wwd5vXF98dNzI_transcoded-ToJ2fB4sg8KOIR9d-Module%2004.mp4" />
+<file href="scormcontent/assets/z95EH9xYNiloo8LU_i4fbQczlRjWiUdGV.png" />
+<file href="scormcontent/assets/ghowDQY7ytUPhGDJ_transcoded-9xZs5gX04asfYqcd-Crisis_%20Module%205_%20Slide%201.mp3" />
+<file href="scormcontent/assets/hGhomcSadmaIV86g_transcoded-mZXcrIaN0IvKYeKf-Crisis_%20Module%205_%20Slide%202.mp3" />
+<file href="scormcontent/assets/jcE3QerrhigUnhLo_xWsOKru3gHcFZcwc.png" />
+<file href="scormcontent/assets/ZhjluTThBM6PByMr_QZzDPI2DZvbhoXyo.jpg" />
+<file href="scormcontent/assets/mwMSiycIkTTeanvo_transcoded-O9vt3ou2zY7dFsOm-Crisis_%20Module%205_%20Slide%203.mp3" />
+<file href="scormcontent/assets/LSnpasIq4D3J3Bdq_eL6LxAU_he8de-Yb.png" />
+<file href="scormcontent/assets/u8fu5xOSUMM6vd9l_transcoded-06mMgW0EQvGuRsor-Crisis_%20Module%205_%20Slide%204.mp3" />
+<file href="scormcontent/assets/L-PNJKWNLtiW3lBh_transcoded-T97ibFv_JBxqI-jM-Crisis_%20Module%205_%20Slide%205.mp3" />
+<file href="scormcontent/assets/sIsrTmv19fDUMzdu_transcoded-BCump9O2B8twFqTx-Module%2005-00001.png" />
+<file href="scormcontent/assets/nH44t4A8gLUAgNIR_transcoded-BCump9O2B8twFqTx-Module%2005.mp4" />
+<file href="scormcontent/assets/P2OmTsuPGSsgMuzb_CrrxDJe98j8WvkU3.jpg" />
+<file href="scormcontent/assets/ieVwsf9_hFO7ghuY_transcoded-xr05RDGvmyT5mjjv-Crisis_%20Module%206_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Bs2znT1g1ecrMPuG_Gywsqv9RwdUBBApP.jpg" />
+<file href="scormcontent/assets/q8IVNsMRHqitOtk6_transcoded-LLPLvJSQaq-jgOFb-Crisis_%20Module%206_%20Slide%202.mp3" />
+<file href="scormcontent/assets/8mGL5lcdSP9jW6DW_transcoded-mGDD91ZRBxXDZtyK-Crisis_%20Module%206_%20Slide%203.mp3" />
+<file href="scormcontent/assets/g_giAGjwxTb5jY5w_Ad61kgmgD-SKfnHx.jpg" />
+<file href="scormcontent/assets/74JjjiinwiKSIEVJ_Dqeg-ikm3fFsaON5.png" />
+<file href="scormcontent/assets/t_gXDDuDdfMTSHGk_transcoded-EhhPMD_Fys5GicOz-Crisis_%20Module%206_%20Slide%204.mp3" />
+<file href="scormcontent/assets/XwQ6PEyTo-iSW8Bv_transcoded-bEHBczyzYA9Y-6Nd-Crisis_%20Module%206_%20Slide%205.mp3" />
+<file href="scormcontent/assets/oV_31EiLsU_zjpdA_transcoded-JHiYoxLE4v32tKdj-Module%2006-00001.png" />
+<file href="scormcontent/assets/gKSELgLFh6SubYO8_transcoded-JHiYoxLE4v32tKdj-Module%2006.mp4" />
+<file href="scormcontent/assets/hOXIvSTTeRG95H0P_9yehR7lnwS_DPKI4.jpg" />
+<file href="scormcontent/assets/Xl4qOE5PC65AqXw6_transcoded-xfmhbXZhjN2YeS-M-Crisis_%20Module%207_%20Slide%201.mp3" />
+<file href="scormcontent/assets/XewmtOaJCxJQ2_ZK_YHP46NjcuakrBNM_.png" />
+<file href="scormcontent/assets/b-l1425dMf8r86pI_transcoded-U5I-eCg_qfnlmZYE-Crisis_%20Module%207_%20Slide%202.mp3" />
+<file href="scormcontent/assets/1-RBDPmt9MocvSfQ_transcoded-GGQGz5DathxwB35K-Crisis_%20Module%207_%20Slide%203.mp3" />
+<file href="scormcontent/assets/aacRYEmgHb5nJ7PS_qZSrYsla2xSTuofk.png" />
+<file href="scormcontent/assets/JBrwZ3AWHttA32cS_m6GGklRw78Kwu5gW.png" />
+<file href="scormcontent/assets/Cp9JFtCnylZhGy2G_transcoded-hoJcIwmr9BiqKYic-Crisis_%20Module%207_%20Slide%204.mp3" />
+<file href="scormcontent/assets/X9tmkzq6MvNwL30b_transcoded-OEGe7qx7QKlEyuaT-Crisis_%20Module%207_%20Slide%205.mp3" />
+<file href="scormcontent/assets/L2QJMlmWfYhWn27Y_transcoded-8fLNvcorD3Q8eOEE-Module%2007-00001.png" />
+<file href="scormcontent/assets/LHLj1o_zU0glVJfu_transcoded-8fLNvcorD3Q8eOEE-Module%2007.mp4" />
+<file href="scormcontent/assets/4Kecf03zdsUnLnnJ_SPH4QF3T-dWsZMFa.png" />
+<file href="scormcontent/assets/8zrVVx0FUU6WcPoc_transcoded-wfybM0Dauuw22RoY-Crisis_%20Module%208_%20Slide%201.mp3" />
+<file href="scormcontent/assets/jmWYMIz3nc68Ooy9_transcoded-kxIkOwQ9vwHHzMAv-Crisis_%20Module%208_%20Slide%202.mp3" />
+<file href="scormcontent/assets/YheT9TtzFm53tHEK_RHbK64BGCTMT6M5g.jpg" />
+<file href="scormcontent/assets/06wcKrCrcRO0ywdx_transcoded-aBuxIiYAkZCC8rlT-Crisis_%20Module%208_%20Slide%203.mp3" />
+<file href="scormcontent/assets/AjgWNI6c6DQ-Vo1b_transcoded-USwTrSr4AQUHiZQg-Crisis_%20Module%208_%20Slide%204.mp3" />
+<file href="scormcontent/assets/3uA2TL1VRj5DW7dz_2M2xNnxe1fSGXC8T.png" />
+<file href="scormcontent/assets/nGsMiQSwQ8PUp-mc_transcoded-3CXFxPUDqB7CXYXs-Crisis_%20Module%208_%20Slide%205.mp3" />
+<file href="scormcontent/assets/PT-Hfv9oiUHWDcgr_transcoded-DU433NOSc-mR58yL-Module%2008-00001.png" />
+<file href="scormcontent/assets/kkRVxLPjfZd-jPrB_transcoded-DU433NOSc-mR58yL-Module%2008.mp4" />
+<file href="scormcontent/assets/jtBIQbLZvefjy41n_e8k4sKnWj0qfBNWO.jpg" />
+<file href="scormcontent/assets/9iDPIgjh-4gIHkYh_transcoded-FL7LDMM2vCzrP5qH-Crisis_%20Module%209_%20Slide%201.mp3" />
+<file href="scormcontent/assets/CLooFkHWrtoxa2of_transcoded-x1mBjQfYf-q4O70P-Crisis_%20Module%209_%20Slide%202.mp3" />
+<file href="scormcontent/assets/0xGANGab2UJQ_fse_transcoded-OlRlkgvgwV9FBCH0-Crisis_%20Module%209_%20Slide%203.mp3" />
+<file href="scormcontent/assets/LOqtfKCaHoww8b5z_transcoded-78V6EECGfDQWVRna-Crisis_%20Module%209_%20Slide%204.mp3" />
+<file href="scormcontent/assets/oyAk4O-AMOkSbAJY_lgexsoEoSZqJEaC8.png" />
+<file href="scormcontent/assets/WlKE-__lNEdmwL5l_transcoded-7xyG8Zu3GmvUFcjy-Crisis_%20Module%209_%20Slide%205.mp3" />
+<file href="scormcontent/assets/48w_IWvD27o7Moro_transcoded-_WVthKh-ed9Cb9na-Module%2009-00001.png" />
+<file href="scormcontent/assets/Llf0WUnqT4Vv-QJa_transcoded-_WVthKh-ed9Cb9na-Module%2009.mp4" />
+<file href="scormcontent/assets/B3ODhOk2IQdL-Oq4_HDjW2Aqd_jGDY6Zn.png" />
+<file href="scormcontent/assets/eXQf5JZp5mtsE8Pj_transcoded-YaXKz72OMgrleC2w-Crisis_%20Module%2010_%20Slide%201.mp3" />
+<file href="scormcontent/assets/M46jykhsdUuXx5it_transcoded-zUYKd2IEnNWbnr40-Crisis_%20Module%2010_%20Slide%202.mp3" />
+<file href="scormcontent/assets/9N3oB3ajMdRpB__N_UN5NgWL-h9NAk1cS.jpg" />
+<file href="scormcontent/assets/yi82xsVdTyLXsb7n_transcoded-SmkNda8ZrBEGq8g0-Crisis_%20Module%2010_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Y55CQ93iwaFJMznu_transcoded-WJxAoNGsC0QKKS35-Crisis_%20Module%2010_%20Slide%204.mp3" />
+<file href="scormcontent/assets/1nPK6sXH0m2roMmu_LSof0i35Ut2j-IpV.jpg" />
+<file href="scormcontent/assets/xvBb44Lr1B2cH89n_uf0A06u8gndvz-pN.png" />
+<file href="scormcontent/assets/8Aarj_LKVp7WbOow_transcoded-GuIlykhF8Fcoh3nn-Crisis_%20Module%2010_%20Slide%205.mp3" />
+<file href="scormcontent/assets/KU6IVHzAcRsXrS5C_transcoded-8_qHKhA68EoWuYTV-Module%2010-00001.png" />
+<file href="scormcontent/assets/haK3966yyE0OV7gV_transcoded-8_qHKhA68EoWuYTV-Module%2010.mp4" />
+<file href="scormcontent/assets/OXLiZjG6H-oOp3ey_FzGV_xGzAXQ4gqc7.jpg" />
+<file href="scormcontent/assets/ugQdt2B8FLhG7pxQ_transcoded-wI4cUTurLfxMYHh3-Crisis_%20Module%2011_%20Slide%201.mp3" />
+<file href="scormcontent/assets/LkKmejI9h-ZWecUu_ilgK1F9ZT3iL5YtD.jpg" />
+<file href="scormcontent/assets/LL0q25mZ9QouiYz9_transcoded-Mvwtdjf8C1DJRoCT-Crisis_%20Module%2011_%20Slide%202.mp3" />
+<file href="scormcontent/assets/m0y5nazLr9SN5HXB_transcoded-N7lqSca2F2l98IEQ-Crisis_%20Module%2011_%20Slide%203.mp3" />
+<file href="scormcontent/assets/L_JzftrDGnNgpPqV_i2eO9Shy3pXGZKOF.jpg" />
+<file href="scormcontent/assets/HhZdcgvlbZoNThel_transcoded-Wj3EC0Nx6lBIW4AI-Crisis_%20Module%2011_%20Slide%204.mp3" />
+<file href="scormcontent/assets/ZNEx4qGDtfcaGh-O_transcoded-jNjBnpZLwsEX_h9l-Module%2011-00001.png" />
+<file href="scormcontent/assets/WVMNgGD84o49AatO_transcoded-jNjBnpZLwsEX_h9l-Module%2011.mp4" />
+<file href="scormcontent/assets/P4LscwTFyJ1FgwY1_transcoded-P5t3Bs1EjnNAkidn-Crisis_%20Module%2011_%20Slide%205.mp3" />
+<file href="scormcontent/assets/Tes5ItbEHiYKB0wb_V7InJw4o4Bao3Itx.png" />
+<file href="scormcontent/assets/7i5MoAPl_XVc_n4V_6_mlrG0f1BGV4oly.jpg" />
+<file href="scormcontent/assets/VdTgMhEmtiRbxiib_18_architecture.jpg" />
+<file href="scormcontent/assets/Kjsyp0ERvat9Dpg3_example-header-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
